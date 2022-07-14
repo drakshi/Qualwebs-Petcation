@@ -1,0 +1,1435 @@
+
+@media screen and (max-width: 767px){
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4 {
+    font-size: 18px;
+    }
+    
+    .font-14 {
+        font-size: 12px;
+    }
+    .font-20{
+        font-size:18px;
+    }
+    .mob-col {
+    padding-right: 0;
+    margin: auto;
+    }
+    .main-wrapper .padding {
+        padding: 1rem 0;
+    }
+    .main-wrapper .why-choose p {
+    padding: 0 4px;
+    }
+    .main-wrapper .main-image{
+        position: absolute;
+        overflow: hidden;
+        height: 263px;
+    }
+    .main-wrapper .main-image img{
+        transform: scale(4.5);
+    }
+    .main-banner{
+        padding-top: 30px;
+        top: 0;
+        position: relative;
+    }
+    .main-banner .pet-details{
+        text-align: center;
+    }
+    .main-banner .pet-details h6{
+        font-size: 25px;
+    }
+    .main-banner .pet-details p{
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    .main-wrapper .main-banner .book-details{
+        display: flex;
+        flex-direction: column;
+        background: transparent !important;
+        padding: 0;
+    }
+    .main-wrapper .main-banner .book-details .content-margin{
+        order: 1;
+        margin: 0;
+        position: relative;
+    }
+    .main-wrapper .main-banner .book-details .content-margin .pd-right{
+        padding: 0;
+    }
+    .main-wrapper .main-banner .book-details .content-margin .pd-left{
+        position: absolute;
+        right: 10px;
+        top: 15px;
+        padding: 0;
+        width: max-content;
+    }
+    .main-wrapper .main-banner .book-details .content-margin .pd-left button{
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        border-radius: 100px;
+        overflow: hidden;
+    }
+    .main-wrapper .main-banner .book-details .content-margin .pet-content .col-xl-3{
+        display: none;
+    }
+    .main-wrapper .main-banner .book-details .content-margin .pet-content .col-xl-3:first-child{
+        display: block;
+    }
+    .main-wrapper .main-banner .book-details .content-margin .pet-content{
+        background: white;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);;
+        margin-bottom: 15px;
+    }
+    .main-wrapper .main-banner .book-details .pet-info{
+        order: 2;
+        background: white;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);;
+        margin-bottom: 15px;
+            margin-top: 15px;
+    }
+    .main-wrapper .main-banner .book-details .pet-info p{
+        width: 100%;
+        display: inline-block !important;
+    }
+    .main-wrapper .main-banner .book-details .pet-info .custom-check{
+        width: calc(50% - 10px);
+        float: left;
+        margin: 5px;
+    }
+    .main-wrapper .main-banner .book-details .service-display{
+        order: 3;
+        padding: 10px;
+        display: block;
+        margin-bottom: 15px;
+    }
+    .main-wrapper .main-banner .book-details .service-display .service-option{
+        width: calc(50% - 10px);
+        float: left;
+        margin: 5px;
+        border: 1px solid #D2D2D2;
+        border-radius: 5px;
+        text-align: center;
+        height: 93px;
+        overflow: hidden;
+    }
+    .service-option .details {
+    text-align: left;
+    margin-left: 10px;
+    }
+    .service-option label{
+        border-bottom: 0;
+        width: 100%;
+        height: 100%;
+        padding: 22px 0;
+        transition: 0.3s all ease-in-out;
+            padding: 7px 12px;
+    }
+   .service-option .left-arrows a {
+    color: #414141;
+    }
+    .service-option :checked + label{
+        border-bottom: 0;
+        background: var(--green-shade);
+        width: 100%;
+        height: 100%;
+        color: var(--white);
+    }
+    .service-option :checked + label .left-arrows a{
+        color: var(--white);
+    }
+    .service-option :checked + label h6{
+        color: var(--white);
+    }
+      .service-option :checked + label p{
+        color: var(--white);
+    }
+    .service-option label svg {
+    margin-bottom: 0;
+    }
+    .rating-section .d-flex{
+        display: block !important;
+        text-align: center;
+    }
+    .rating-section .d-flex div{
+        width: 100%;
+    }
+    .rating-section .d-flex .rating-star.d-flex{
+        display: flex !important;
+        width: max-content;
+        margin: 5px auto;
+    }
+    
+    .main-title p{
+        font-size: 12px;
+    }
+    .main-wrapper .booking-sitter .icons svg{
+        width: 20px;
+    }
+    .main-wrapper .booking-sitter .col{
+        padding-left: 0;
+    }
+    .main-wrapper .booking-sitter .security-details{
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 0 !important;
+    }
+    .main-wrapper .booking-sitter .security-details h3{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .main-wrapper .verified-details{
+        background: white;
+        margin: 0;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+        padding: 1rem 1rem 1.5rem;
+    }
+    .main-wrapper .verified-details .verified-icons{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .main-wrapper .verified-details .verified-icons svg{
+        width: 20px;
+    }
+    .main-wrapper .verified-details .sitter-btn button.btn.btn-primary.py-3{
+        font-size: 14px;
+        padding: 10px !important;
+        width: 100%;
+    }
+    .main-wrapper .why-sec{
+        background: #f8f8f8 !important;
+        padding: 0;
+    }
+    .main-wrapper #why-slider .owl-stage-outer .owl-stage .slider-item .why-choose{
+        background: white;
+        padding: 25px 15px;
+    }
+    .main-wrapper #why-slider .owl-stage-outer .owl-stage .slider-item .why-choose h3{
+        margin-bottom: 5px !important;
+    }
+    /*.main-wrapper #why-slider .owl-stage-outer .owl-stage .slider-item .item-holder{
+        padding: 0 20px;
+    }*/
+    .main-wrapper .spot-slider .view-all{
+        margin-top: 0 !important;
+        text-align: center !important;
+    }
+    .booking-sitter .partner-images{
+        padding: 0 30px 20px;
+    }
+    .booking-sitter .partner-images .row div{
+        padding: 0;
+    }
+    .booking-sitter .partner-images .row div img{
+        width: 100%;
+        padding: 10px;
+    }
+    .booking-sitter .partner-images .row div:nth-child(1){
+        width: 45%;
+        max-width: 45%;
+        flex: unset;
+    }
+    .booking-sitter .partner-images .row div:nth-child(2){
+        width: 55%;
+        max-width: 55%;
+        flex: unset;
+    }
+    .booking-sitter .partner-images .row div:nth-child(3){
+        width: 60%;
+        max-width: 60%;
+        flex: unset;
+    }
+    .booking-sitter .partner-images .row div:nth-child(4){
+        width: 40%;
+        max-width: 40%;
+        flex: unset;
+    }
+    .booking-sitter .partner-images .row div .images-width{
+        width: 100%;
+        max-width: 100%;
+    }
+    .main-wrapper .partner-details .verified-details{
+        background: transparent;
+        padding: 0;
+        box-shadow: unset;
+    }
+    .booking-sitter .partner-details .list-btn{
+        float: left;
+        width: calc(50% - 10px);
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    .booking-sitter .partner-details .list-btn button{
+        font-size: 14px !important;
+        padding: 10px 7px;
+        width: 100%;
+    }
+    .booking-sitter .partner-details .sitter-btn{
+        float: left;
+        width: calc(50% - 10px);
+        margin-bottom: 0;
+    }
+    .booking-sitter .partner-details .sitter-btn button{
+        font-size: 14px !important;
+        padding: 10px 7px;
+        width: 100%;
+    }
+    .regions .main-title{
+        margin-bottom: 0;
+    }
+    .regions .region-col{
+       width: auto;
+    max-width: 50%;
+    flex: unset;
+    }
+    .regions .region-col .sitter-region ul {
+        text-align: left;
+
+    }
+    .regions .region-col .sitter-region ul li {
+        display: inline-table;
+        margin: 0 5px;
+    }
+   .main-wrapper .events-details {
+    margin: 0;
+    }
+    .main-wrapper .events-details.latest-news {
+        margin-bottom: 30px;
+    }
+    .main-wrapper .events-details h3{
+        font-weight: 500 !important;
+        font-size: 18px;
+    }
+    .services h5 {
+    font-size: 14px;
+    }
+    .services {
+    margin-bottom: 10px;
+    }
+    .bottom-details .services svg {
+    width: 14px;
+    vertical-align: bottom;
+    margin-bottom: 0;
+    }
+    .footer-description {
+    display: none;
+    }
+
+    .main-wrapper .booking-sitter .verified-details {
+    background: transparent;
+    box-shadow: none;
+    }
+    /*===============dashboard css====================*/
+  
+    .display{
+        display: block;
+    }
+    .display1{
+        display: block;
+    }
+    .booking-request-details .meeting-day p br {
+    display: none;
+    }
+    .gallery-image {
+    width: 50%;
+    }
+    .gift-card h5 {
+    font-size: 13px;
+    }
+    .main-wrapper .points-details .book-now{
+     margin-top: 1rem;
+    }
+    .referrals-code .form-control {
+    font-size: 13px;
+    margin-bottom: 10px;
+    }
+    .main-wrapper .earn-section p {
+    text-align: center;
+    padding: 6px;
+    }
+    .main-wrapper .refferal-link a {
+    margin-left: 0;
+    }
+   .dash-col.dash-col1 {
+    width: 80%;
+    }
+    .news-details span {
+    background: transparent;
+    font-size: 12px;
+    padding: 5px 0;
+
+    }
+    .main-wrapper .news-details h6 {
+    line-height: 1.5;
+    }
+    .dropdown.pet-drop  .dropdown-menu{
+        transform: translate3d(-74px, 0px, 0px);
+    }
+    .booking-request-details .meeting-day {
+    width: 60px;
+    height: 60px;
+    }
+    button.btn.btn-black {
+    font-size: 10px;
+    padding: 2px 5px;
+    }
+/*===============/dashboard css====================*/
+
+/*=============profile css===========================*/
+.profile-bg {
+    background: #F0EFEF;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+.main-wrapper .pay-tabs .nav-tabs .nav-item.show .nav-link, .main-wrapper .pay-tabs .nav-tabs .nav-link.active{
+    background: transparent;
+}
+.main-wrapper .pay-tabs .nav-tabs .nav-link{
+    margin-right: 3px;
+    font-size: 14px;
+    padding: 15px 0.5rem;
+}
+.main-wrapper {
+    margin: 0 0 1rem;
+}
+.basic-btn .btn.btn-primary {
+    width: auto;
+}
+.basic-info-details p {
+    font-size: 12px;
+}
+.basic-info-details h6 {
+    font-size: 14px;
+}
+.panel.panel-default {
+   margin: 1rem 0;
+   background: white;
+}
+h5.default {
+    font-size: 16px;
+}
+.bg-white.main-background.profile-background {
+    box-shadow: none;
+    background: transparent!important;
+    padding: 0;
+}
+.availability .panel-body.content {
+    padding: 0 8px;
+}
+.accordion .panel-default.availability .panel-title a {
+    padding: 1rem 8px;
+}
+.availability .panel-body .check {
+    font-size: 12px;
+}
+.availability .panel-body .checkmark {
+    top: 0;
+}
+.checkmark{
+    left:2px;
+}
+.tabs-design .pay-tabs ul {
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.tabs-design .pay-tabs ul li {
+    display: inline-block;
+}
+.main-wrapper .question-icon .edit-icon {
+    background: #09746D;
+    
+}
+.main-wrapper  .question-details h6 {
+    font-size: 14px;
+}
+
+/*=============/profile css===========================*/
+
+/*===============my pets==============================*/
+    .p-left {
+        padding-left: 15px;
+    }
+    .btn.btn-primary{
+        width: 100%;
+    }
+    /*.mypet-details {
+        position: relative;
+        margin-top: 17px;
+    }*/
+    /*.dropdown.pet-drop.mob-drop {
+        position: absolute;
+        top: -110px;
+        right: 13px;
+        bottom: -16px;
+    }*/
+    .main-wrapper .booking-for .custom-check {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 7px;
+    }
+    .deactive {
+        margin-bottom: 10px;
+    }
+    .mypet-details h6 span {
+    font-size: 12px;
+    color: #414141;
+    font-weight: 400;
+    }
+    .mypet-details h6 {
+    font-size: 16px;
+    }
+    .top {
+    margin-top: 12px;
+    }
+/*====================/my pets========================*/
+
+/*==============payment payouts=======================*/
+    .bank-name h6 {
+        display: block;
+        font-size: 14px;
+    }
+    .bank-name span {
+        display: block;
+        margin-left: 0!important;
+    }
+    .account-type {
+        margin-bottom: 10px;
+    }
+    .main-wrapper .added-cards {
+        margin-top: 0;
+    }
+
+/*==============/payment payouts=======================*/
+
+/*===========booking=====================*/
+    .booking-for.booking-check .custom-check {
+        display: inline-block;
+        margin-right: 9px;
+    }
+    
+    
+    ul.chec-radio {
+        margin: 25px 5px 0;
+        white-space: nowrap;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+    .service-icon1 {
+        width: 24px;
+        height: 24px;
+        border: 1px solid black;
+        text-align: center;
+        border-radius: 2px;
+        color: var(--main-color);
+        cursor: pointer;
+        padding: 0;
+    }
+   
+   .service-icon1.active {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    color: white;
+    }
+
+    .grooming-details {
+        padding-right: 0;
+    }
+    .booking-period .custom-check {
+        margin-bottom: 16px;
+    }
+    .booking-button button {
+        margin-bottom: 1rem;
+    }
+    .chec-radio .mob-select .radio-inline .select-radio {
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    padding-left: 30px;
+    }
+    .mob-select label.radio-inline {
+    width: 100%;
+    }
+    .main-wrapper .pet-select .search-sitter-img {
+    width: 40px;
+    height: 40px;
+    }
+    .chec-radio .mob-select label.radio-inline input[type="radio"]:checked+div:before {
+    top: auto;
+    left: 9px;
+    }
+    h6.font-title.mb-1.font-medium {
+    font-size: 14px;
+    }
+    .main-wrapper .additional-services p.groom {
+    font-size: 14px;
+    }
+    .main-wrapper .booking-for {
+    margin-left: 8px;
+    }
+    .proceed-btn .btn.btn-primary {
+    padding: 10px 12px;
+    }
+    .payment-amt {
+    position: relative;
+    background: #F1F1F1;
+    border-radius: 5px;
+    padding: 13px 33px 16px 14px;
+    height: 43px;
+}
+.payment-amt svg {
+    position: absolute;
+    right: 9px;
+    top: 15px;
+    width: 14px;
+    color: var(--main-color);
+}
+/*===========/booking===================*/
+.main-wrapper .spot-info.chat-float .edit-icon.information svg {
+    width: 9px;
+}
+/*==============blog page==============*/
+    .row-direction {
+        flex-direction: column-reverse;
+    }
+    .blog-day {
+        margin-top: 8px;
+    }
+    .main-title.partner-title {
+        margin-top: 1rem;
+    }
+      .categories-details ul{
+        white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    overflow-x: auto;
+      }
+    .categories-details ul li {
+        display: inline-block;
+    }
+/*==============/blog page=============*/
+
+/*============services page============*/
+.on-off-toggle {
+    display: inline-block;
+    margin-right: 1rem;
+}
+.manage-btn {
+    display: inline-block;
+}
+.service-content .service-icons {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.service-content .service-icons svg {
+    color: white;
+    width: 17px;
+}
+.service-content .boarding-details {
+    margin-left: 12px;
+    margin-bottom:12px;
+}
+.boarding-details h6 {
+    font-size: 14px;
+}
+.boarding-details p {
+    font-size: 12px;
+}
+.manage-btn .btn.btn-primary {
+    width: 100%;
+    margin-top: -23px;
+}
+.main-wrapper .fees-content .capacity {
+    margin-left: 0;
+}
+.capacity .skin-2 .num-in {
+    border-radius: 2px;
+    border: 1px solid #414141;
+    height: 42px;
+    margin-bottom: 14px;
+}
+.mob-service-title a {
+    font-size: 16px;
+    color: var(--black);
+    font-weight: 500;
+}
+.mob-service-title svg {
+    width: 9px;
+    margin-right:5px;
+}
+.inform-icon {
+    text-align: right;
+}
+.inform-icon svg {
+   width: 16px;
+}
+.service-charges .col-6.col-md-3.col-lg-3.col-xl-3 {
+    margin-bottom: 6px;
+}
+.card-info {
+    margin-bottom: 13px;
+}
+/*============/services page============*/
+
+/*============reservation page============*/
+.main-background.pending-request {
+    padding: 0;
+    background: transparent!important;
+    box-shadow: none;
+}
+span.paid {
+    color: var(--blue);
+}
+.main-wrapper .booking-request-details button.btn.btn-primary.btn1{
+    margin-left: 11px;
+    margin-right:0;
+}
+
+/*============/reservation page============*/
+.main-wrapper .service-pending {
+    justify-content: flex-start;
+}
+span.badge.badge-primary{
+    right: 49px;
+}
+.myspot-details.main-padding {
+    margin-top: 15px;
+}
+.main-wrapper .sort-filter .dropdown a {
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+}
+.main-wrapper .sort-filter{
+    margin-top:0;
+}
+.main-wrapper .content-margin {
+    margin-bottom: 1rem;
+}
+.main-wrapper .sort-filter .content-margin {
+    margin-bottom: 0;
+}
+.main-wrapper .friendly-hotel {
+    margin: 0;
+}
+.fav-details .rating-points h6 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.pd-right {
+    padding-right: 15px;
+}
+
+/*==============review page css===============*/
+.main-wrapper .sort-filter.review-filter {
+    margin-top: 1rem;
+}
+
+/*============/reviewpage css=================*/
+
+/*===========search page======================*/
+
+
+.main-wrapper .search-sitter-content .view-details {
+    text-align: right;
+    margin-top: 3px;
+    display: inline-block;
+}
+.contact-now {
+    display: inline-block;
+    margin-right: 12px;
+}
+.contact-now button.btn.btn-primary {
+    font-size: 12px;
+    padding: 3px 14px;
+}
+
+.sidebar-modal.modal.left.filter-modal .modal-dialog.modal-sm, .modal.right .modal-dialog.modal-sm {
+    width: 100%;
+}
+
+
+.sidebar-modal.filter-modal .modal-content .close {
+    color: black;
+}
+
+.mob-content h5 {
+    font-size: 14px;
+}
+.featured-details h6 {
+    font-size: 14px;
+}
+.main-wrapper .search-background {
+    margin-bottom: 1rem;
+}
+.load-btn button.btn.btn-primary.border-btn {
+    width: 50%;
+    padding: 6px 10px;
+    background: white;
+}
+.mob-filter h5 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*=========/search page=======================*/
+
+/*==========chat screen======================*/
+.main-wrapper .send-msg .plus-sign {
+
+    margin-left: -8px;
+    margin-right: 15px;
+}
+.main-background.chat-content{
+    margin-right:15px;
+}
+
+.main-wrapper .spot-info.chat-float{
+    width:55px;
+    height:55px;
+    margin-bottom:75px;
+    background-image: none;
+}
+.main-wrapper .spot-info.chat-float .edit-icon svg {
+    width:22px;
+}
+.sidebar-modal.modal.left.filter-modal .modal-body.chat-info.main-wrapper {
+    padding: 1rem;
+    background: white;
+    margin: 1rem;
+}
+.profile-header {
+    background: white;
+    padding: 1rem;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 3%);
+}
+
+.modal-profile-details .verified-img {
+    width: 30px;
+    height: 30px;
+    background: white;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 8%);
+    border-radius: 50px;
+    margin: auto;
+    margin-top: -19px;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    line-height:30px;
+}
+
+.main-background.profile-sidebar {
+    margin: 1rem;
+}
+.main-wrapper  .profile-share-icon svg {
+    width: 14px;
+}
+
+/*============/chat screen===================*/
+.spot-images {
+    margin: 10px 0;
+}
+.timerange{
+    margin: 10px 0;
+}
+.main-wrapper .main-image.main-position {
+   display: none;
+
+}
+.main-wrapper .single-spot.main-background {
+    margin-top: 17px;
+  
+}
+.gallery-img1 {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.small-img {
+    display: none;
+}
+.main-wrapper .overall-ratings{
+    margin-bottom: 12px;
+}
+.pay-tabs.service-tab.history-tabs ul {
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: auto;
+    display: block;
+}
+.pay-tabs.service-tab.history-tabs ul li {
+    display: inline-block;
+}
+/*================sitter profile====================*/
+.sitter-services-details h5 {
+    font-size: 16px;
+}
+.about-place p {
+    font-size: 14px;
+}
+.main-wrapper .overall-ratings.mob-rating {
+    height: auto;
+    padding: 1rem;
+}
+.main-wrapper .sitter-profile-img {
+    width: 40px;
+    height: 40px;
+}
+.main-wrapper .sitter-review-details h5 {
+    font-size: 14px;
+}
+.main-wrapper .main-background.about-pet li {
+    font-size: 14px;
+}
+.main-wrapper .rating-star svg {
+    width: 12px;
+}
+.d-flex.mob-flex {
+    justify-content: space-between;
+}
+.main-background.pro-content p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.main-background.about-place {
+    height: auto;
+}
+.main-wrapper.bottom {
+    margin-bottom: 0;
+}
+.main-wrapper .button-design .contact-now.instant-button .btn.btn-primary {
+    border-radius: 25px;
+    padding: 7px 21px;
+}
+.main-wrapper .edit-icon {
+    background: transparent;
+}
+.head {
+    font-size: 14px;
+}
+    /*================/sitter profile====================*/
+
+/*=============payment information==================*/
+.coupon-code .form-control {
+    width: 70%;
+    margin-top: 8px;
+    text-align: center;
+}
+.main-content.top-margin {
+    margin:1rem 0;
+}
+.main-wrapper .pay-edit .spot-info.chat-float {
+    position: inherit;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 0;
+    top: 0;
+}
+.main-wrapper .pay-edit .spot-info.chat-float svg{
+    width:14px;
+}
+.main-wrapper .mob-pay h6 {
+    font-size: 14px;
+}
+.main-page.mobile-bg {
+    background: white;
+}
+.booking-align {
+    text-align: center;
+}
+.booking-button {
+    text-align: center;
+}
+.booking-button .btn.btn-primary {
+    width: auto;
+}
+.main-content.booking-success {
+    padding: 0;
+}
+.main-title1{
+    color:var(--black);
+}
+.find-spot h5 {
+    font-size: 14px;
+}
+.find-spot p {
+    font-size: 12px;
+}
+.main-wrapper .spot-img.explore-img {
+    width: 45px;
+    height: 45px;
+}
+.slider_nav {
+    display: none;
+}
+.main-wrapper .spot-inner-details .awards-details svg {
+    width: 12px;
+    margin-bottom: 0px;
+}
+/*=============/payment information==================*/
+.main-wrapper .spot-inner-details .awards-details h6 {
+    font-size: 12px;
+}
+.hotel-rating h6 {
+    margin-top: 4px;
+}
+.btn-secondary {
+   padding: 3px 10px;
+}
+.list{
+    margin-left:0;
+}
+.list p {
+    font-size: 10px;
+}
+.service-content {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    border-bottom: 1px solid #E2E2E2;
+}
+.fav-img {
+    margin-bottom: 13px;
+}
+.main-wrapper .price-details h6 {
+    font-size: 12px;
+}
+.category-selection.charge-select {
+    margin-top: 8px;
+}
+.main-wrapper .main-banner .book-details .service-display.mob-service-display .service-option{
+    width: 100%;
+    height: 68px;
+}
+.service-option label .left-arrows svg {
+    width: 10px;
+}
+.why-choose{
+    margin-bottom: 20px;
+}
+.display-mob {
+    display: flex;
+}
+.main-wrapper .additional-services button {
+    width: 100%;
+}
+.proceed-btn {
+    margin-top: 0;
+}
+.follow-us.blog-follow {
+    background: white;
+    margin-left: 0;
+    padding: 1rem;
+}
+
+ .days-header, .days {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+ .days-header > span, .days > span {
+     position: relative;
+     width: 45px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+ .dots {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     width: 100%;
+     bottom: 8px;
+}
+ .dots .dot {
+     display: inline-flex;
+     height: 4px;
+     width: 4px;
+     margin: 0 2px;
+     border-radius: 4px;
+     background-color: #CBCBCB;
+}
+ .days > span {
+     height: 45px;
+     border-radius: 8px;
+}
+
+ .days-header {
+     height: 30px;
+     text-transform: uppercase;
+     font-size: 12px;
+     font-weight: 600;
+}
+.month-select h6 {
+    margin: 2px 6px;
+}
+.month-select .arrows svg {
+    width: 7px;
+}
+.calendar {
+    border: 1px solid gainsboro;
+    margin: 1rem 0;
+}
+.basic-info-details {
+    margin-bottom: 10px;
+}
+button.btn.btn-primary.btn1.btn-edit {
+    margin-right: 12px;
+}
+.main-wrapper .career-position .main-image {
+    position: relative;
+}
+.career-position .main-banner {
+    padding-top: 30px;
+    top: 0;
+    position: absolute;
+}
+.sidebar-modal.modal.left .sidebar-menu ul li .dropdown.services .dropdown-menu a {
+    color: black;
+}
+.main-wrapper .profile-share-drop .dropdown-menu.show {
+    transform: translate3d(-134px, -229px, 27px)!important;
+}
+
+    .category-selection .css-1s2u09g-control {
+        width:50%;
+    }
+    .accordion .panel-default .panel-title a {
+    width: 94%;
+    font-size: 14px;
+    }
+    .events-details .event-img {
+    height: auto;
+    }
+    .main-wrapper .sort-details .custom-check {
+        float: left;
+        margin: 8px 0;
+      }
+      button.btn.btn-save {
+        margin-left: 15px;
+      }
+      .main-wrapper .pay-tabs .nav-tabs {
+        border-bottom: 1px solid var(--gray-shade1);
+        margin-bottom: 1rem;
+        white-space: nowrap;
+        overflow: auto;
+        width: 100%;
+        display: block;
+        /* margin-bottom: 3rem; */
+        padding-bottom: 1rem;
+    }
+    .main-wrapper .pay-tabs .nav-tabs li {
+        display:inline-block;
+    } 
+   #earnings .InputFromTo .DayPickerInput input {
+        width: 116px;
+        margin: 1rem 10px;
+    }
+    .filter-design .css-1b3ymlk-control {
+        width: 100%;
+    }
+    .filter-design .css-15wgbm7-control{
+        width:100%;
+    }
+    .service-option label {
+        margin: 0;
+    }
+    .main-wrapper .main-banner .book-details p {
+        font-size: 16px;
+    }
+    .service-option label h6{
+        font-size:16px;
+    }
+    .service-option label svg {
+        width: 24px;
+        height: 24px;
+    }
+    .main-wrapper .main-banner .book-details .content-margin svg {
+        margin-top: -8px;
+    }
+    .service-option :checked + label {
+        border: 0;
+    }
+    .main-wrapper .care-details .care-btn {
+        margin-top: -17px;
+    }
+    .care-details p {
+        margin: 0px 15px;
+    }
+    .news-details.my-3 {
+        margin-top: 0!important;
+    }
+    .mob-padding {
+        padding: 0;
+    }
+    .vector-icon {
+        margin-left: 13px;
+    }
+    
+    
+}
+/*======================/mobile view=======================*/
+
+/*================common css for mob and ipad===============*/
+@media screen and (min-width: 300px) and (max-width: 991px){
+    #mob-header {
+    padding: 12px 0;
+    }
+    #mob-header a.navbar-brand.logo {
+    width: 155px;
+    padding: 0 10px;
+    font-size: inherit;
+    }
+    #mob-header a.navbar-brand.logo img {
+    width: 100%;
+    }
+    #mob-header .mob-bar svg {
+    width: 21px;
+    color: var(--main-color);
+    margin-bottom: 0;
+    }
+    .user-login {
+    width: 34px;
+    height: 34px;
+    margin-left: auto;
+    }
+    .user-login img {
+    width: 100%;
+    border-radius: 50px;
+    }
+    .column{
+        display: none;
+    }
+    .column1 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    }
+      .dash-row {
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    overflow-x: auto;
+    padding-right: 15px;
+  }
+    .dash-col {
+    display: inline-block;
+    width: 45%;
+    padding-right: 0;
+    }
+
+    #main {
+    display: none;
+    }
+
+.sidebar-modal.modal.left.filter-modal  .modal-content {
+    background-color: white;
+}
+.sidebar-modal.modal.left.filter-modal .modal-body {
+    padding: 0.5rem 0rem;
+}
+.sidebar-modal.filter-modal .modal-content .close {
+    color: black;
+}
+.profile-user-img img {
+    border-radius: 100px;
+}
+.profile-user-img {
+    text-align: center;
+}
+.main-wrapper .sidebar-design ul li .angle svg {
+    color: #999999;
+    width: 10px;
+}
+.angle {
+    display: inline-block;
+    float: right;
+}
+ .mobile-filter .sidebar-modal.modal.left.filter-modal .modal-content {
+    background-color: #F8F8F8;
+    }
+    .searches {
+
+    position: absolute;
+    right: 9px;
+    top: 7px;
+}
+.more-filter a {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 14px;
+}
+.mob-content {
+    background: white;
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    }
+    .background {
+        background-color: var(--light-gray);
+    }
+    .display button {
+        margin-left: 0;
+    }
+    .preview-details h6 {
+        font-size: 13px;
+    }
+}
+
+/*================/common css for mob and ipad===============*/
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .main-banner {
+    top: 13%;
+    }
+    .btn.btn-primary.btn-list {
+    width: 100%;
+    }
+    .btn.btn-primary.btn-gray{
+    width:100%;
+    }
+    .main-banner.help-banner {
+    top: 6.5%;
+    }
+       .sidebar-modal.modal.left.filter-modal .modal-dialog.modal-sm, .modal.right .modal-dialog.modal-sm {
+    width: 50%;
+    }
+    .vector {
+        height: calc(100vh - 461px);
+    }
+    .booking-request-details .image1 {
+        width: 75px;
+        height: 75px;
+    }
+    .main-image {
+        height: 363px;
+    }
+    .main-image img {
+        height: inherit;
+    }
+    .main-banner {
+        top: 9%;
+    }
+    .main-wrapper .main-banner .book-details p {
+        font-size: 16px;
+    }
+    .service-option label {
+
+        padding: 1.2rem 0.5rem;
+    }
+    .service-option label h6 {
+        font-size: 12px;
+    }
+    .service-option label svg {
+        width: 24px;
+        height: 24px;
+    }
+    .main-banner .book-details.booking-for .pet-info .custom-check {
+        margin-left: 10px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1200px){
+    .main-banner {
+    top: 7%;
+    }
+    .bottom-details .services h5{
+    font-size: 16px;
+    }
+    #header nav.navbar ul li {
+    margin: auto 0 auto 10px;
+    }
+    .my-profile-details {
+    text-align: center;
+    }
+    .main-wrapper .user-profile-img.my-profile-img {
+    margin: auto;
+    }
+    .upload-profile .upload-doc .file {
+    margin: 1rem auto;
+    }
+    .main-banner.help-banner {
+    top: 8%;
+    }
+    .report-details button.btn.btn-primary.chat {
+    padding: 5px 6px;
+    }
+    .calendar table {
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+    }
+    .mob-content {
+    background: white;
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    }
+    .more-filter a {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 14px;
+    }
+    .searches {
+    position: absolute;
+    right: 9px;
+    top: 7px;
+    }
+    .booking-request-details .image1 {
+    width: 70px;
+    height: 70px;
+    }
+    .btn.btn-primary.btn-list {
+    width: 60%;
+    }
+    .btn.btn-primary.btn-gray {
+    width: 60%;
+    }
+}
+
+@media (max-width: 320px)
+{
+  
+    h3 {
+    font-size: 17px!important;
+    }
+    .main-wrapper .button-design .contact-now.instant-button .btn.btn-primary {
+    padding: 7px 10px!important;
+    }
+    .proceed-btn .btn.btn-primary {
+    padding: 10px 10px!important;
+    }
+    .column-left {
+    margin-left: -30px;
+    }
+    .main-wrapper .pay-tabs .nav-tabs .nav-link {
+    padding: 15px 0.3rem;
+    font-size: 12px;
+    }
+    .mob-service-title a {
+    font-size: 14px;
+    }
+}
